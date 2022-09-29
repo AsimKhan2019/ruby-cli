@@ -7,4 +7,4 @@ OptionParser.new do |parser|
       options[:name] = value
     end=
   end.parse!
-  puts 'hello ' + options[:name]
+  puts "Hello #{ options[:name] }"  if options[:name]
